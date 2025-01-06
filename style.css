@@ -145,7 +145,7 @@ main {
 }
 
 .volume img {
-    width: 20px;
+    width: 24px; /* Increased icon size */
 }
 
 #volumeBar {
@@ -179,7 +179,7 @@ main {
 }
 
 .change img {
-    width: 30px;
+    width: 40px; /* Increased icon size */
     cursor: pointer;
     box-sizing: border-box;
 }
@@ -192,7 +192,7 @@ main {
 .right {
     margin-left: 85%;
     width: 15%;
-    height: 100vh;
+    height: calc(100vh - 10vh); /* Adjusted height to account for nav */
     background: linear-gradient(
         to bottom,
         var(--grey),
@@ -204,6 +204,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-bottom: 20px; /* Added padding to prevent last image from being hidden */
 }
 
 .right img {
@@ -240,6 +241,7 @@ main {
     z-index: 2;
 }
 
+/* Mobile Styles */
 @media only screen and (max-width: 600px) {
     .hamburger {
         display: block;
@@ -254,7 +256,7 @@ main {
         width: 40%;
         z-index: 100;
         margin-left: 60%;
-        height: 100vh;
+        height: calc(100vh - 10vh); /* Adjusted height */
         background: linear-gradient(
             to bottom,
             var(--grey),
@@ -266,6 +268,7 @@ main {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        padding-bottom: 20px; /* Added padding to prevent last image from being hidden */
     }
 
     .sideMenu img {
@@ -317,8 +320,7 @@ main {
     }
 
     .change img {
-        width: 10px;
-        height: auto;
+        width: 30px; /* Adjusted icon size for mobile */
     }
 }
 
