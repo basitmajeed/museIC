@@ -36,7 +36,7 @@ const songList = [
         artist: "FreeSoundServer",
         album: "Galaxy",
         src: "songs/song2.mp3",
-        cover: "images/cover2.png",
+        cover: "images/cover2.jpg",
     },
     {
         title: "Drift Away Dusk",
