@@ -381,6 +381,7 @@ main {
         justify-content: center;
         align-items: center;
         gap: 40px;
+        overflow-y: scroll;
     }
 
     .change {
