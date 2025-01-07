@@ -306,6 +306,10 @@ main {
         margin-top: 15px;
     }
 
+    .volume {
+        display: none;
+    }
+
     .cover {
         img {
             width: 300px;
@@ -382,7 +386,11 @@ main {
     }
 
     .controls {
-        margin-top: 10px;
+        margin-top: 15px;
+    }
+
+    .volume {
+        display: none;
     }
 }
 
@@ -407,9 +415,7 @@ main {
     }
 
     .volume {
-        img {
-            width: 30px;
-        }
+        display: none;
     }
 
     .cover {
@@ -483,6 +489,14 @@ main {
     .right {
         margin-left: 80%;
         width: 20%;
+    }
+
+    .volume {
+        display: flex;
+        img {
+            width: 30px;
+            height: 30px;
+        }
     }
 }
 
